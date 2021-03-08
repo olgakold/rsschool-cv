@@ -12,3 +12,11 @@ span {
 
 }
 
+footer {
+    margin-top: 20px;
+    border-top: solid black 2px;
+}
+
+ul {
+    display: inline-block;
+}
