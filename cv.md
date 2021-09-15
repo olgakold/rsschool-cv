@@ -13,7 +13,7 @@ HTML, CSS, JavaScript English Proficiency: A2
 **August 2019-November 2019** – Educational Center for Programming and High Tech Course: Website development with HTML, CSS & JavaScript Description: were studied: selectors, media query, adaptive layout, grid-CSS, flex-CSS, form, animation, SVG.  
 **2003-2008** - Belarusian National Technical University Faculties: Instrumentation Engineering Specialization: Process Engineer.
 ### Code example:
-#Solution for Kata: *We want to create a function, which returns an array of functions, which return their index in the array.*
+Solution for Kata: *We want to create a function, which returns an array of functions, which return their index in the array.*
 ```function createFunctions(n) {
    const callbacks = [];
 
