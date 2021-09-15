@@ -14,7 +14,8 @@ HTML, CSS, JavaScript English Proficiency: A2
 **2003-2008** - Belarusian National Technical University Faculties: Instrumentation Engineering Specialization: Process Engineer.
 ### Code example:
 Solution for Kata: *We want to create a function, which returns an array of functions, which return their index in the array.*
-```function createFunctions(n) {
+```javascript
+function createFunctions(n) {
    const callbacks = [];
 
      for (let i=0; i<n; i++){
@@ -25,7 +26,7 @@ Solution for Kata: *We want to create a function, which returns an array of func
     }
 
   return callbacks;
-}
+ }
 ```
 ### Work experience
 **July 2020** – Educational Center for Programming and High Tech Project description: [Project “Store”](https://github.com/VolhaKaldziankova/store) Project role: Front-end developer.  
