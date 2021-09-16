@@ -1,0 +1,22 @@
+img {
+    width: 140px;  
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.Content {
+    text-align: center;
+
+}
+
+footer {
+    margin-top: 20px;
+    border-top: solid black 2px;
+}
+
+ul {
+    display: inline-block;
+}
