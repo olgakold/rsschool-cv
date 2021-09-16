@@ -14,12 +14,8 @@ HTML, CSS, JavaScript English Proficiency: A2
 **2003-2008** - Belarusian National Technical University Faculties: Instrumentation Engineering Specialization: Process Engineer.
 ### Code example:
 Solution for Kata: *We want to create a function, which returns an array of functions, which return their index in the array.*
-<<<<<<< HEAD
-```function createFunctions(n) {
-=======
 ```javascript
 function createFunctions(n) {
->>>>>>> b064afd2e64cf50f46442ebc587c4b08c459f5ad
    const callbacks = [];
 
      for (let i=0; i<n; i++){
