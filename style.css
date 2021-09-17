@@ -1,19 +1,36 @@
 img {
     width: 140px;  
-
 }
 
 span {
     font-weight: bold;
 }
 
-.Content {
-    text-align: center;
-
+.content-wrapper {
+    position: absolute;
+    margin: 5px 10%;    
+    width: auto;
+    text-align: left;
+    padding: 5px 15px;
 }
 
+.content {
+    font-family: system-ui;
+    display: flex;
+}
+aside {
+    padding: 30px;
+    background-color: lightgrey;
+}
+
+.avatar-img{
+    width: 96%;
+    border: solid 2px rgb(63, 63, 2)
+}
+main {
+    background-color:rgb(228, 228, 228);
+}
 footer {
-    margin-top: 20px;
     border-top: solid black 2px;
 }
 
