@@ -22,7 +22,9 @@ aside {
     padding: 30px;
     background-color: lightgrey;
 }
-
+main {
+    padding: 30px;
+}
 .avatar-img{
     width: 96%;
     border: solid 2px rgb(63, 63, 2)
@@ -31,9 +33,13 @@ main {
     background-color:rgb(228, 228, 228);
 }
 footer {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
     border-top: solid black 2px;
 }
 
 ul {
-    display: inline-block;
+    display: inline-block;    
 }
