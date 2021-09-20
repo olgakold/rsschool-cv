@@ -5,6 +5,9 @@
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <div class="content-wrapper">
@@ -73,12 +76,12 @@
     <div>
     <div>
         <span>July 2020  – Educational Center for Programming and High Tech. </span><br> 
-        Project description: <a href="https://github.com/olgakold/Store">Project “Store”</a> . <br> 
+        Project description: <a href="https://github.com/olgakold/Store" target="_blank">Project “Store”</a> . <br> 
         Project role: Front-end developer. 
     </div> 
     <br>
     <div> <span>March 2020</span>  – Educational Center for Programming and High Tech. <br>
-        Project description: <a href="https://github.com/olgakold/Coloring">Project “Coloring”</a>  It is a single-page application, where you can paint a picture. <br>
+        Project description: <a href="https://github.com/olgakold/Coloring" target="_blank">Project “Coloring”</a>  It is a single-page application, where you can paint a picture. <br>
         Project role: Front-end developer. I wrote the whole code with JS. 
     </div>  
     <br>
@@ -98,14 +101,30 @@
         
     </div>	
     </section>
+
+    <section class="code_example">
+       <h3>Code example:</h3> 
+        Solution for Kata: We want to create a function, which returns an array of functions, which return their index in the array.
+        <pre><code>function createFunctions(n) {
+        const callbacks = [];
+        for (let i=0; i&lt;n; i++){
+         let callback  = function (){
+            return i
+        }
+        callbacks.push(callback)        
+        }  
+       return callbacks;
+ }</code></pre>
+
+    </section>
 	
     <section class="Additional Information">
     <h3>Additional Information</h3> 
-    <div>Portfolio: <a href="https://github.com/olgakold">Githab portfolio</a>  <br>
+    <div>Portfolio: <a href="https://github.com/olgakold" target="_blank">Githab portfolio</a>  <br>
         Professional interests: Websites
         <nav>
-        <a href="https://learn.javascript.ru/">Learn JavaScript</a> ,
-        <a href="https://www.codewars.com/">Codewars</a>
+        <a href="https://learn.javascript.ru/" target="_blank">Learn JavaScript</a> ,
+        <a href="https://www.codewars.com/" target="_blank">Codewars</a>
         </nav>
     </div>
     </section>
@@ -122,10 +141,11 @@
     </section>	
     </main>
 </div> 
-    <footer>
-    <img alt="rss-school" src="rs_school_js.svg">
-    <a href="https://github.com/olgakold">Портфолио</a>
-    <a href="https://rs.school/js/">Курс «JavaScript/Front-end»</a>
+    <footer>        
+    <img alt="rss-school" src="rs_school_js.svg">   
+    <a href="https://rs.school/js/" target="_blank">Курс «JavaScript/Front-end»</a>
+    <a href="https://github.com/olgakold" target="_blank">Githab portfolio</a>
+    <h4>2021</h4> 
     </footer>
 </div>  
 
